@@ -1,5 +1,5 @@
 function increment(arr, value) {
-    result = [];
+    let result = [];
     for(let val of arr){
         let newValue = val.val + value;
         result.push({val: newValue})

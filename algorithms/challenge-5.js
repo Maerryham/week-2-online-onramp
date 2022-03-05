@@ -1,5 +1,5 @@
 function arraySum(arr1, arr2) {
-    result = [];
+    let result = [];
     let arrLen = arr2.length;
     for(let i = 0; i < arr1.length; i++){
         if(!arr2[i]){
