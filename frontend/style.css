@@ -1,0 +1,60 @@
+*{
+    font-family: 'Poppins', 'Open Sans';
+}
+body{
+    background-color: #E9276E;
+
+}
+.container{
+    background-color: #E9276E;
+    width: 100%;
+
+}
+.stay-middle{
+    margin: 5% 20%;
+    padding: 40px;
+    background-color: #3E3E3E;
+    border-radius: 30px;
+    /*display: inline-block;*/
+    display: flex;
+}
+.title{
+    font-size: 30px;
+    color: #E9276E;
+    margin: 0;
+}
+span{
+    text-decoration: underline;
+}
+.first-div{
+    width: 50%;
+}
+.second-div{
+    width: 50%;
+    overflow: hidden;
+}
+
+.input{
+    background-color: transparent;
+    color: #cccccc;
+    font-size: 14px;
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    border-bottom: 1px solid #525252;
+    margin-bottom: 10px;
+}
+.input:focus-within{
+    border: none;
+    border-bottom: 1px solid #E9276E;
+    color: #cccccc;
+    outline: unset;
+}
+.button{
+    color: #E9276E;
+    padding: 15px;
+    background-color: #3E3E3E;
+    float: right;
+    box-shadow: unset;
+    border: none;
+}
